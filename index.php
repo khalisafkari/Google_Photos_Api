@@ -1,5 +1,5 @@
 <?php
-include "api.php";
+include "apis.php";
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *'); 
 if (!empty($_GET['id']) && isset($_GET['id'])) {
